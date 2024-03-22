@@ -1,0 +1,129 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background: #e0d1c1;
+  height: 100vh;
+}
+
+.Todo {
+  background: #e0d1c1;
+  margin: auto;
+  background: #ecebeb;
+  box-sizing: content-box;
+  padding: 3rem 5rem;
+  border-radius: 1rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.349);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: #59412e;
+}
+
+h1 {
+  margin: 1rem 0;
+}
+.listSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.todoForm {
+  margin-top: 2rem;
+  width: 100%;
+  padding: 0.8rem;
+  cursor: pointer;
+  display: flex;
+  border: solid #9b9d9ea8;
+  border-top: 1px;
+  border-bottom: 1px;
+  border-radius: 10px;
+  gap: 5px;
+}
+
+.todoInput {
+  padding: 1rem 1rem;
+  width: 350px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #59412e;
+  background: transparent;
+  outline: none;
+  margin: 0;
+  border: none;
+}
+
+.editInput {
+  width: 308px;
+}
+
+.todoTask {
+  padding: 1rem 1rem;
+  width: 300px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #59412e;
+  background: transparent;
+  outline: none;
+  margin: 0;
+  border: none;
+}
+
+.todoBtn {
+  cursor: pointer;
+  width: 20%;
+  color: #000;
+  background: transparent;
+  margin: 0;
+  border: 0;
+}
+
+.todoBtn:hover {
+  color: #59412e;
+}
+
+.todoItem {
+  width: 100%;
+  display: flex;
+  padding: 1rem 1rem;
+  border-bottom: 1px solid #9b9d9ea8;
+  color: #59412e;
+  margin-top: 10px;
+  gap: 5px;
+}
+
+.textSection {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.activitySection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.activityBtn {
+  cursor: pointer;
+  width: 90px;
+  color: #000;
+  background: transparent;
+  margin: 0;
+  border: 0;
+}
+
+.activityBtn:hover {
+  color: #59412e;
+}
+
+.delete:hover {
+  color: rgb(199, 14, 14);
+}
+
+.checkbox {
+  cursor: pointer;
+}
